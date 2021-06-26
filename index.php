@@ -108,11 +108,18 @@
 ////Практика
 // Task 13. Напишите скрипт,
 // который считает количество секунд в часе, в сутках, в месяце.
-$min = 60;
-$hour = $min * 60;
-$date = $hour * 24;
-$month = $date * 30;
-echo "Hour has $hour seconds<br>";
-echo "Date has $date seconds<br>";
-echo "Month has $month seconds<br>";
+//$min = 60;
+//$hour = $min * 60;
+//$date = $hour * 24;
+//$month = $date * 30;
+//echo "Hour has $hour seconds<br>";
+//echo "Date has $date seconds<br>";
+//echo "Month has $month seconds<br>";
+
+// Task 14. Создайте три переменные - час, минута, секунда.
+// С их помощью выведите текущее время в формате 'час:минута:секунда'.
+$hour = date("H");
+$minute = date("i");
+$second = date("s");
+echo "$hour:$minute:$second";
 
