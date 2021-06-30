@@ -200,10 +200,17 @@
 //echo $var;
 
 //// Задачі зі сторінки
-////  http://old.code.mu/tasks/php/base/osnovy-raboty-s-massivami-v-php.html
+//// http://old.code.mu/tasks/php/base/osnovy-raboty-s-massivami-v-php.html
 /// Работа с массивами:
 // Task 1. Создайте массив $arr=['a', 'b', 'c'].
 // Выведите значение массива на экран с помощью функции var_dump().
 
+//$arr = ['a', 'b', 'c'];
+//var_dump($arr);
+
+// Task 2. С помощью массива $arr из предыдущего номера
+// выведите на экран содержимое первого, второго и третьего элементов.
 $arr = ['a', 'b', 'c'];
-var_dump($arr);
+echo "$arr[0] <br>";
+echo "$arr[1] <br>";
+echo "$arr[2] <br>";
