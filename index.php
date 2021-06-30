@@ -190,11 +190,20 @@
 //$var = $var - 15;
 //echo $var;
 
-$var = 10;
-$var += 7;
-$var++;
-$var--;
-$var += 12;
-$var *= 7;
-$var -= 15;
-echo $var;
+//$var = 10;
+//$var += 7;
+//$var++;
+//$var--;
+//$var += 12;
+//$var *= 7;
+//$var -= 15;
+//echo $var;
+
+//// Задачі зі сторінки
+////  http://old.code.mu/tasks/php/base/osnovy-raboty-s-massivami-v-php.html
+/// Работа с массивами:
+// Task 1. Создайте массив $arr=['a', 'b', 'c'].
+// Выведите значение массива на экран с помощью функции var_dump().
+
+$arr = ['a', 'b', 'c'];
+var_dump($arr);
