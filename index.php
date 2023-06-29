@@ -16,7 +16,7 @@
 
 // Solution:
 //$a = 10;
-//echo $a;
+//echo "$a<br>";
 //
 //$a = 20;
 //echo $a;
@@ -26,5 +26,26 @@
     /*Создайте переменную $a. Запишите в нее сумму чисел 1, 2 и 3.
     С помощью команды echo выведите на экран содержимое переменной $a. */
 // Solution:
-$a = 1 + 2 + 3;
-echo $a;
+//$a = 1 + 2 + 3;
+//echo $a;
+
+// Exercises from page:
+// https://code.mu/ru/php/book/prime/basis/math-operations-variables/
+
+    /*№1
+    Создайте переменную $a со значением 10 и переменную $b со значением 2.
+    Выведите на экран их сумму, разность, произведение и частное (результат деления). */
+
+// Solution:
+$a = 10;
+$b = 2;
+$sum = $a + $b;
+$diff = $a - $b;
+$mult = $a * $b;
+$division = $a / $b;
+
+echo "$sum<br>";
+echo "$diff<br>";
+echo "$mult<br>";
+echo $division;
+
