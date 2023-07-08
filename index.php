@@ -43,7 +43,19 @@
      */
 
 // Solution:
-$a = 10;
-$b = 3;
-$res = $a%$b;
-echo $res;
+//$a = 10;
+//$b = 3;
+//$res = $a%$b;
+//echo $res;
+
+// Exercise from page:
+// https://code.mu/ru/php/book/prime/basis/numbers-powering/
+
+    /*
+     Возведите число 2 в 10-ю степень. Выведите результат на экран.
+     */
+
+// Solution:
+$a = 2;
+$b = 10;
+echo $a ** $b;
