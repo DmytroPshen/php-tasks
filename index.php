@@ -31,5 +31,19 @@
 
 //Solution:
 //$a = 7;
-$a = -8;
-echo -$a;
+//$a = -8;
+//echo -$a;
+
+// Exercise from page:
+// https://code.mu/ru/php/book/prime/basis/division-remainder/
+
+    /*
+     Дана переменная $a со значением 10 и переменная $b со значением 3.
+     Найдите остаток от деления $a на $b.
+     */
+
+// Solution:
+$a = 10;
+$b = 3;
+$res = $a%$b;
+echo $res;
