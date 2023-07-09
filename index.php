@@ -31,6 +31,17 @@
     */
 
 // Solution:
-$str = 'hello';
-$str2 = 'world';
-echo $str . ' ' . $str2;
+//$str = 'hello';
+//$str2 = 'world';
+//echo $str . ' ' . $str2;
+
+// Exercise from page:
+// https://code.mu/ru/php/book/prime/basis/strings-length/
+
+    /*
+    Запишите в переменную какую-нибудь строку. Выведите на экран длину вашей строки.
+    */
+
+// Solution:
+$str = 'fnfdfgfgvld';
+echo strlen($str);
