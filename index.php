@@ -18,6 +18,19 @@
     */
 
 // Solution:
-$str_1 = 'abc';
-$str_2 = 'def';
-echo $str_1 . $str_2;
+//$str_1 = 'abc';
+//$str_2 = 'def';
+//echo $str_1 . $str_2;
+
+// Exercise from page:
+// https://code.mu/ru/php/book/prime/basis/strings-concatenation-spaces/
+
+    /*
+    Создайте переменную с текстом 'hello' и переменную с текстом 'world'.
+    С помощью этих переменных и операции сложения строк выведите на экран строку 'hello world'.
+    */
+
+// Solution:
+$str = 'hello';
+$str2 = 'world';
+echo $str . ' ' . $str2;
