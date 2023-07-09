@@ -43,5 +43,16 @@
     */
 
 // Solution:
-$str = 'fnfdfgfgvld';
-echo strlen($str);
+//$str = 'Hello word';
+//echo strlen($str);
+
+// Exercise from page:
+    /*
+    Запишите в переменную какую-нибудь кириллическую строку.
+    Выведите на экран длину вашей строки.
+    */
+
+// Solution:
+$str = 'Привіт світ';
+echo mb_strlen($str);
+
